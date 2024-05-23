@@ -21,7 +21,7 @@ a {
 header {
 	width: 100%;
 	height: 100vh;
-	background: linear-gradient(to bottom, rgba(0, 0, 0, .8), rgba(0, 0, 0, .5)), url("https://img.freepik.com/free-photo/galaxy-night-panorama_23-2148895326.jpg?t=st=1716162368~exp=1716165968~hmac=a80df54dbf8f8791c1655882fc8fb925ad978524efe4e4414a5ffce328c6f5c8&w=1380") center no-repeat;
+	background: linear-gradient(to bottom, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url("../imgs/assets/terra.jpg") center no-repeat;
 	background-size: cover;
 	position: relative;
 	overflow: hidden;
@@ -52,7 +52,7 @@ header {
 
 ::-webkit-scrollbar-thumb {
 	border-radius: 30px;
-	background-color: #6f3ac5;
+	background-color: #00042c;
 
 }
 
@@ -72,9 +72,15 @@ nav {
 	padding-top: 5rem;
 	display: flex;
 	justify-content: space-between;
-	align-items: center;
+	align-items: left;
 	text-transform: uppercase;
 	font-size: 1.6rem;
+	text-align: left;
+}
+
+.container3{
+	padding: 10px 0;
+	text-align: left;
 }
 
 .menu-sb {
@@ -95,7 +101,7 @@ nav {
 
 .brand span {
 
-	color: #6f3ac5;
+	color: #0015ff;
 }
 
 nav ul {
@@ -143,7 +149,7 @@ nav ul li a::after {
 	position: absolute;
 	width: 100%;
 	height: 2px;
-	background-color: #6f3ac5;
+	background-color: #00042c;
 	left: 0;
 	transform: scaleX(0);
 	transition: all .5s;
@@ -165,9 +171,8 @@ section {
 	margin-top: 100px;
 }
 
-
 .container1 {
-	background-color: #00a2ff42;
+	background-color: #0026ff42;
 	user-select: none;
 	border-radius: 20px;
 	height: 150px;
@@ -227,7 +232,7 @@ select:focus {
 }
 
 :root {
-	--clr-neon: #0077ff;
+	--clr-neon: #0015ff;
 	--clr-bg: hsl(323 21% 16%)
 }
 
@@ -256,7 +261,7 @@ select:focus {
 .LoginNome {
 	font-size: 20px;
 	margin-left: 80px;
-	color: #6f3ac5;
+	color: #0015ff;
 }
 
 
@@ -272,7 +277,7 @@ select:focus {
 .Slogan2 {
 
 	font-size: 70px;
-	color: #6f3ac5;
+	color: #00ff9d;
 	text-align: center;
 }
 
@@ -402,7 +407,7 @@ a {
 	transform: translate(-50%, -50%);
 	width: 100%;
 	height: 100%;
-	background-color: #fcddc96a;
+	background-color: #a6caff6b;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -426,7 +431,7 @@ a {
 
 .buy-btn:hover {
 	color: #FFFFFF;
-	background-color: #ffcaa6;
+	background-color: #a6caff;
 	transition: all ease 0.3s;
 }
 
@@ -550,7 +555,7 @@ a {
 	font-size: 30px;
 	font-weight: bold;
 	text-decoration: none;
-	color: #ffcaa6;
+	color: #a6caff;
 }
 
 .popup .close:hover {
@@ -581,7 +586,7 @@ a {
 	margin: 10px auto;
 	width: 100%;
 	height: 30px;
-	border: solid #ffcaa6;
+	border: solid #a6caff;
 	border-radius: 10px;
 }
 
@@ -592,7 +597,7 @@ a {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-evenly;
-	background: rgb(255, 202, 166);
+	background: #a6caff;
 	background: linear-gradient(to bottom, #ffcaa66c, rgba(0, 0, 0, 0.42)), url("https://static4.depositphotos.com/1027863/384/i/450/depositphotos_3846803-stock-photo-space-background.jpg") center no-repeat;
 
 
@@ -706,9 +711,9 @@ a {
 	display: flex;
 	margin-bottom: 20px;
 	align-items: center;
-	--glow-spread-color: #ffcaa6c8;
+	--glow-spread-color: #a6caff;
 	--enhanced-glow-color: rgb(255, 228, 206);
-	--btn-color: #ffcaa6;
+	--btn-color: #a6caff;
 	border: 3px solid rgba(255, 255, 255, 0.36);
 	padding: 1em 9em;
 	color: white;
@@ -820,12 +825,12 @@ svg {
 }
 
 .caaaard-button:hover {
-	border: 1px solid #ffcaa6;
-	background-color: #ffcaa6;
+	border: 1px solid #a6caff;
+	background-color: #a6caff;
 }
 
 footer {
-	background: white;
+	background: rgb(0, 0, 0);
 	box-shadow: rgb(0 0 0 / 25%) 0px 0px 54px 0px;
 	margin-top: -44px;
 	padding: 20px 0px;
@@ -856,7 +861,7 @@ footer div.social-media a {
 }
 
 footer div.social-media a:hover {
-	background: #ffcaa6;
+	background: #a6caff;
 
 }
 
