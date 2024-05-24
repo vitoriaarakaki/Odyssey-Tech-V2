@@ -75,7 +75,7 @@ body {
 .profile-card {
   position: relative;
   width: 220px;
-  height: 220px;
+  height: 400px;
   background: #fff;
   padding: 30px;
   border-radius: 5%;
@@ -87,7 +87,7 @@ body {
 
 .profile-card:hover {
   border-radius: 10px;
-  height: 260px;
+  height: 400px;
 }
 
 .profile-card .img {
@@ -131,7 +131,7 @@ body {
 .caption p {
   font-size: 16px;
   color: #ffcaa6;
-  margin: 2px 0 9px 0;
+
 }
 
 .caption .social-links a {
