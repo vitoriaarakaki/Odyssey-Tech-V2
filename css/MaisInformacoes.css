@@ -1,9 +1,63 @@
 body {
   width: 100%;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, .8), rgba(0, 0, 0, .5)), url("https://img.freepik.com/fotos-gratis/menina-bonita-em-pe-no-aeroporto_1157-22071.jpg?t=st=1652751569~exp=1652752169~hmac=abccbd5dc61337e7f0e1e556fff735e0e6b4bce6280541b29c9c08789d848c2f&w=1060") center no-repeat;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, .8), rgba(0, 0, 0, .5));
   background-size: cover;
   position: relative;
   animation: zoom 2s;
+  background-color: black;
+}
+
+/* incio e menu */
+header {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url("https://img.freepik.com/free-photo/galaxy-night-landscape_23-2148895320.jpg?t=st=1717030089~exp=1717033689~hmac=6307e5af480c866d7fd1e66e90c3e1d790af6d1a57b02230e1364af8b74e5aa9&w=1380") center no-repeat;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+  animation: zoom 2s;
+  padding: 0;
+
+}
+
+@keyframes zoom {
+  0% {
+    transform: scale(1.5);
+  }
+
+  100% {
+    transform: scale(1.0);
+  }
+}
+
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #afafaf9f;
+  border-radius: 30px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 30px;
+  background-color: #00042c;
+
+}
+
+.Slogan {
+
+	font-size: 70px;
+	color: rgba(255, 255, 255, 0.767);
+	text-align: center;
+}
+
+.Slogan2 {
+
+	font-size: 70px;
+	color: #00e1ff;
+	text-align: center;
 }
 
 .spinner {
@@ -22,6 +76,7 @@ body {
 
 .spinner span {
   animation: loading6454 1.75s ease infinite;
+  color: #00e1ff;
 }
 
 .spinner span:nth-child(2) {
@@ -130,7 +185,7 @@ body {
 
 .caption p {
   font-size: 16px;
-  color: #ffcaa6;
+  color: #00e1ff;
 
 }
 
@@ -142,15 +197,163 @@ body {
 }
 
 .social-links a:hover {
-  color: #ffcaa6;
+  color: #00e1ff;
 }
 
 @media screen and (max-width: 700px) {
   .profile-card {
     margin-bottom: 20px;
   }
+
   .button-scroll {
     padding: 1em 2em;
     margin-bottom: 30px;
+  }
 }
+
+
+/* CARDS LEGAIS */
+.contentcard {
+
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	background: #a6caff;
+	background: linear-gradient(to bottom, #00e1ff2c, rgba(0, 0, 0, 0.42)), url("https://static4.depositphotos.com/1027863/384/i/450/depositphotos_3846803-stock-photo-space-background.jpg") center no-repeat;
+
+
+}
+
+.containercard {
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	max-width: 1200px;
+	flex-wrap: wrap;
+	z-index: 1;
+
+
+
+}
+
+.slogan-cards {
+	color: #999;
+	padding-top: 20px;
+	font-size: 40px;
+	text-align: center;
+}
+
+.contentcard h2 {
+	color: white;
+	font-size: 80px;
+	justify-self: flex-start;
+
+}
+
+.contentcard h3 {
+	color: white;
+	;
+}
+
+.contentcard p {
+	padding: 10px;
+	font-size: 12px;
+	color: white;
+}
+
+.bt-maisif a {
+	color: white;
+}
+
+.bt-maisif {
+	--green: #00e1ff85;
+	font-size: 15px;
+	padding: 0.7em 2.7em;
+	letter-spacing: 0.06em;
+	position: relative;
+	font-family: inherit;
+	border-radius: 0.6em;
+	overflow: hidden;
+	transition: all 0.3s;
+	line-height: 1.4em;
+	border: 2px solid var(--green);
+	background: linear-gradient(to right, #ffcaa61c 1%, transparent 40%, transparent 60%, #ffcaa62e 100%);
+	color: var(--green);
+}
+
+.bt-maisif:before {
+	content: "";
+	position: absolute;
+	left: -4em;
+	width: 4em;
+	height: 100%;
+	top: 0;
+	transition: transform .4s ease-in-out;
+	background: linear-gradient(to right, transparent 1%, #00e1ff85 40%, #00e1ff85 60%, transparent 100%);
+}
+
+.bt-maisif:hover:before {
+	transform: translateX(15em);
+}
+
+
+.text-card {
+	display: flex;
+}
+
+.cardi {
+	position: relative;
+	width: calc(80vw / 4);
+	height: 400px;
+	margin: 30px;
+	border-radius: 15px;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+
+}
+
+.containercard .cardi:hover .contentcard {
+	transform: translatey(0px);
+	opacity: 1;
+}
+
+.cardes {
+	display: flex;
+	margin-bottom: 50px;
+}
+
+.button-scroll {
+	z-index: 9;
+	justify-content: center;
+	display: flex;
+	margin-bottom: 20px;
+	align-items: center;
+	--glow-spread-color: #a6caff;
+	--enhanced-glow-color: #00e1ff85;
+	--btn-color: #a6caff;
+	border: 3px solid rgba(255, 255, 255, 0.36);
+	padding: 1em 9em;
+	color: white;
+	font-size: 15px;
+	font-weight: bold;
+	background-color: var(--btn-color);
+	border-radius: 1em;
+	outline: none;
+	box-shadow: 0 0 1em .25em var(--glow-color),
+		0 0 4em 1em var(--glow-spread-color),
+		inset 0 0 .75em .25em var(--glow-color);
+	text-shadow: 0 0 .5em var(--glow-color);
+	position: relative;
+	transition: all 0.3s;
+}
+
+.button-scroll:active {
+	box-shadow: 0 0 0.6em .25em var(--glow-color),
+		0 0 2.5em 2em var(--glow-spread-color),
+		inset 0 0 .5em .25em var(--glow-color);
 }
