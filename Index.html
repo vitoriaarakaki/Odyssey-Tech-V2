@@ -14,30 +14,33 @@
 <body>
 
 	<header>
-		<div class="header__container wrapper">
-			<div class="container3">
-				<nav>
-					<i class="bi bi-person-circle"></i>
-					<a href="Inscreva-se.html" target="_blank">
-						<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-							class="bi bi-person-circle" viewBox="0 0 16 16">
-							<path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0" />
-							<path fill-rule="evenodd"
-								d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1" />
-						</svg>
-					</a>
 
-					<i class="bi bi-people-fill"></i>
-					<a href="SobreNos.html" target="_blank">
-						<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-							class="bi bi-people-fill" viewBox="0 0 16 16">
-							<path
-								d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6m-5.784 6A2.24 2.24 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.3 6.3 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1zM4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5" />
-						</svg>
-					</a>
-				</nav>
+
+
+		<div>
+			<div class="container-fluid">
+				<a class="navbar-brand">
+					<h1>
+						<img src="imgs/assets/odyssey.png" alt="Logo" width="70" height="64"
+							class="d-inline-block align-text-top">
+
+						<!-- bloco separado para os botões -->
+						<div class="container">
+							<nav>
+								<a href="Index.html"
+									style="text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.35); color: whitesmoke; font-family: 'Andale Mono', monospace; font-weight: bold">Início</a>
+								<a href="MaisInformacoes.html"
+									style="text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.35); color: whitesmoke; font-family: 'Andale Mono', monospace; font-weight: bold">Mais
+									Informações</a>
+								<a href="SobreNos.html"
+									style="text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.35); color: whitesmoke; font-family: 'Andale Mono', monospace; font-weight: bold">Sobre</a>
+							</nav>
+						</div>
+					</h1>
+				</a>
 			</div>
 		</div>
+
 
 		<form>
 			<section class="Selecionar">
@@ -102,50 +105,11 @@
 
 	</header>
 
-	<!-- <section class="hoteis">
-		<div class="hoteis__container wrapper">
-			<h2 class="hoteis__title"></h2>
-			<div class="hoteis__content">
-				<article class="hoteis__card">
-					<figure></figure>
-					<h3></h3>
-					<div class="hoteis__card--title"></div>
-					<p class="hoteis__card--text"></p>
-					<hr>
-					<div class="hoteis__card--preco"></div>
-				</article>
-				<article class="hoteis__card">
-					<figure></figure>
-					<h3></h3>
-					<div class="hoteis__card--title"></div>
-					<p class="hoteis__card--text"></p>
-					<hr>
-					<div class="hoteis__card--preco"></div>
-				</article>
-				<article class="hoteis__card">
-					<figure></figure>
-					<h3></h3>
-					<div class="hoteis__card--title"></div>
-					<p class="hoteis__card--text"></p>
-					<hr>
-					<div class="hoteis__card--preco"></div>
-				</article>
-				<article class="hoteis__card">
-					<figure></figure>
-					<h3></h3>
-					<div class="hoteis__card--title"></div>
-					<p class="hoteis__card--text"></p>
-					<hr>
-					<div class="hoteis__card--preco"></div>
-				</article>
-			</div>
-		</div>
-	</section> -->
 
 	<main class="starfield">
 		<div class="star"></div>
 		<div class="wrapper">
-			
+
 			<!-- PASSAGENS -------->
 			<section class="passagens-splide starfield">
 				<div class="star"></div>
@@ -154,7 +118,7 @@
 					<img style="width: 350px; display: block; height: 300px; margin: 0 auto;" src="imgs/assets/2.png"
 						alt="">
 				</h2>
-	
+
 				<!--CARD 1-------->
 				<div class="splide">
 					<div class="splide__track">
@@ -181,7 +145,7 @@
 									</div>
 								</div>
 							</li>
-	
+
 							<!--CARD 2-------->
 							<li class="splide__slide">
 								<div class="box">
@@ -205,7 +169,7 @@
 									</div>
 								</div>
 							</li>
-	
+
 							<!--CARD 3-------->
 							<li class="splide__slide">
 								<div class="box">
@@ -229,41 +193,24 @@
 									</div>
 								</div>
 							</li>
-	
-							<!--CARD 4-------->
-							<!-- <li class="splide__slide">
-								<div class="box">
-									<div class="slide-img">
-										<img alt="1" src="imgs/assets/nasa.jpg">
-										<div class="overlay">
-											<a href="AddCarrinho?id=14" class="buy-btn">Compre já</a>
-										</div>
-									</div>
-									<div class="detail-box">
-										<div class="type">
-											<a href="#">Foguete - Nasa</a>
-										</div>
-										<a href="#" class="price">R$5.100.11</a>
-									</div>
-								</div>
-							</li> -->
-	
+
+			
 						</ul>
 					</div>
 				</div>
-	
+
 			</section>
-	
+
 			<!--HOTEIS-------->
 			<section class="hoteis starfield">
 				<div class="star"></div>
 				<h2 class="text-hotel">Encontre a hospedagem perfeita com os
 					melhores preços</h2>
 				<div class="card-hotel" id="hotel">
-	
+
 					<!--CARD HOTEL 1-------->
 					<div class="caaaard">
-	
+
 						<div class="caaaard-img">
 							<img src="imgs/assets/hotel 1.jpg" alt="">
 						</div>
@@ -273,7 +220,7 @@
 						</div>
 						<div class="caaaard-footer">
 							<span class="texttt-title">Por 2.800</span>
-	
+
 							<div class="caaaard-button">
 								<a href="AddCarrinho?id=2"> <svg class="svg-icon" viewBox="0 0 20 20">
 										<path
@@ -291,7 +238,7 @@
 						</div>
 					</div>
 					<!--CARD HOTEL 2-------->
-	
+
 					<div class="caaaard">
 						<div class="caaaard-img">
 							<img src="imgs/assets/hotel 2.jpg" alt="img hotel ">
@@ -318,14 +265,14 @@
 							</div>
 						</div>
 					</div>
-	
+
 					<!--CARD HOTEL 3-------->
-	
+
 					<div class="caaaard">
 						<div class="caaaard-img">
 							<img src="imgs/assets/hotel 3.jpg" alt="img hotel ">
-	
-	
+
+
 						</div>
 						<div class="caaaard-info">
 							<p class="texttt-title">Hotel no Solo Lunar</p>
@@ -349,13 +296,13 @@
 							</div>
 						</div>
 					</div>
-	
-	
+
+
 					<div class="caaaard">
 						<div class="caaaard-img">
 							<img src="imgs/assets/hotel 4.jpg" alt="img hotel ">
-	
-	
+
+
 						</div>
 						<div class="caaaard-info">
 							<p class="texttt-title">Cabana Lunar</p>
@@ -379,31 +326,33 @@
 							</div>
 						</div>
 					</div>
-	
-	
+
+
 				</div>
 			</section>
-	
+
 			<section class="oportunidades starfield">
 				<div class="star"></div>
 				<!--CARDS-------->
 				<h2 class="slogan-cards" id="cdLegal">Veja só o que preparamos
 					para os clientes da Odyssey Tech</h2>
-	
+
 				<div class="cardes">
 					<section class="cardes__container">
 						<div class="containercard" id="cardi">
 							<div class="cardi">
 								<div class="contentcard">
-	
+
 									<h3>Hotel Orbital:</h3>
-	
+
 									<p>🌍 Vista Incomparável da Terra
-										Desfrute de uma perspectiva única do nosso belo planeta, com vistas deslumbrantes
+										Desfrute de uma perspectiva única do nosso belo planeta, com vistas
+										deslumbrantes
 										diretamente de sua suíte de luxo.
 										<br><br>
 										🚀 Aventuras Espaciais Inesquecíveis
-										Participe de passeios espaciais guiados, observe as estrelas de perto e explore a
+										Participe de passeios espaciais guiados, observe as estrelas de perto e explore
+										a
 										vastidão
 										do cosmos com atividades exclusivas.
 										<br><br>
@@ -417,25 +366,28 @@
 									</button>
 								</div>
 					</section>
-	
+
 					<section class="cardes__container">
 						<div class="containercard">
 							<div class="cardi">
 								<div class="contentcard">
-	
+
 									<h3>Hotel vista para Terra:</h3>
-	
+
 									<p>🌍 Vista Deslumbrante da Terra
-										Desfrute de vistas espetaculares do nosso planeta azul diretamente de sua suíte de
+										Desfrute de vistas espetaculares do nosso planeta azul diretamente de sua suíte
+										de
 										luxo.
 										<br><br>
 										🚀 Experiências Espaciais Inesquecíveis
-										Participe de caminhadas espaciais, observe as estrelas de perto e explore o cosmos
+										Participe de caminhadas espaciais, observe as estrelas de perto e explore o
+										cosmos
 										com
 										atividades exclusivas.
 										<br><br>
 										🍽️ Gastronomia de Outro Mundo
-										Saboreie pratos sofisticados preparados por chefs renomados, com a Terra como pano
+										Saboreie pratos sofisticados preparados por chefs renomados, com a Terra como
+										pano
 										de
 										fundo
 										para suas refeições.
@@ -445,21 +397,23 @@
 									</button>
 								</div>
 					</section>
-	
+
 					<section class="cardes__container">
 						<div class="containercard">
 							<div class="cardi">
 								<div class="contentcard">
-	
+
 									<h3>Hotel no Solo Lunar:</h3>
 									<p> 🌕 Uma Experiência Lunar Única
-										Desfrute de vistas deslumbrantes da Terra e do cosmos a partir do conforto de sua
+										Desfrute de vistas deslumbrantes da Terra e do cosmos a partir do conforto de
+										sua
 										cabana
 										de
 										luxo no solo lunar.
 										<br><br>
 										🚀 Aventuras Exclusivas na Lua
-										Explore crateras antigas, participe de passeios de veículos lunares e sinta a baixa
+										Explore crateras antigas, participe de passeios de veículos lunares e sinta a
+										baixa
 										gravidade em atividades emocionantes.
 										<br><br>
 										🍽️ Gastronomia Celestial
@@ -472,12 +426,12 @@
 									</button>
 								</div>
 					</section>
-	
+
 					<section class="cardes__container">
 						<div class="containercard">
 							<div class="cardi">
 								<div class="contentcard">
-	
+
 									<h3>Cabana Lunar:</h3>
 									<p>🌕 Vistas Espetaculares
 										Desfrute da deslumbrante vista da Terra e do cosmos diretamente de sua cabana de
@@ -491,7 +445,8 @@
 										atividades emocionantes.
 										<br><br>
 										🍽️ Gastronomia Celestial
-										Delicie-se com pratos requintados preparados por chefs renomados, com ingredientes
+										Delicie-se com pratos requintados preparados por chefs renomados, com
+										ingredientes
 										trazidos
 										da Terra, em um cenário lunar inesquecível.
 									</p>
@@ -501,7 +456,7 @@
 								</div>
 					</section>
 				</div>
-	
+
 				<!--BUTTON UP -------->
 			</section>
 		</div>

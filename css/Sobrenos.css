@@ -1,11 +1,63 @@
+/* BODY*/
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+}
+
+html {
+	font-size: 62.5%;
+	font-family: "Roboto Cn", sans-serif;
+	scroll-behavior: smooth;
+}
+
 body {
-    width: 100%;
     background: linear-gradient(to bottom, rgba(0, 0, 0, .6), rgba(0, 0, 0, .4)), url("../imgs/assets/sol.jpg") center no-repeat;
+    width: 100%;
     background-size: cover;
     position: relative;
     animation: zoom 2s;
 }
 
+/* NAV */
+header h1 {
+    margin: 10px;
+    position: relative;
+    transform: translate(0, 0%);
+    display: flex;
+    align-items: center;
+    font-family: "Roboto Cn", sans-serif
+}
+
+nav {
+    padding: 10px 0;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px 20px;
+}
+
+
+/* esconde as ancoras da tela */
+a.links {
+    display: none;
+}
+
+.container {
+    position: relative;
+    /* background-color: black; */
+}
+
+
+/* corpo */
 .Sb-nós {
     color: white;
     text-align: center;
@@ -145,4 +197,16 @@ body {
         margin: unset !important;
         margin-bottom: 10px !important;
     }
+}
+
+/* FOOTER */
+
+footer {
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    opacity: 100%;
 }

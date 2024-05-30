@@ -3,9 +3,9 @@
 *,
 *::after,
 *::before {
-    margin: 0;
-    padding: 0;
-    box-sizing: inherit;
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
 }
 
 html {
@@ -13,19 +13,24 @@ html {
 	font-family: "Roboto Cn", sans-serif;
 	scroll-behavior: smooth;
 }
+
 body {
-    box-sizing: border-box;
-    position: relative;
+	box-sizing: border-box;
+	position: relative;
 }
+
 main {
-    position: relative;
+	position: relative;
 }
+
 img {
-    max-width: 100%;
+	max-width: 100%;
 }
+
 .wrapper {
-    margin: 0 auto;
-    width: 80%;
+	margin: 0 auto;
+	width: 80%;
+	max-width: 1200px;
 }
 
 a {
@@ -84,17 +89,8 @@ header {
 	display: none;
 }
 
-nav {
-	padding-top: 5rem;
-	display: flex;
-	justify-content: space-between;
-	align-items: left;
-	text-transform: uppercase;
-	font-size: 1.6rem;
-	text-align: left;
-}
 
-.container3{
+.container3 {
 	padding: 10px 0;
 	text-align: left;
 }
@@ -120,66 +116,34 @@ nav {
 	color: #0015ff;
 }
 
-nav ul {
-	display: flex;
-	flex-wrap: wrap;
+/* NAV */
+header h1 {
+    margin: 10px;
+    position: relative;
+    transform: translate(0, 0%);
+    display: flex;
+    align-items: center;
+    font-family: "Roboto Cn", sans-serif;
+    font-size: 150%;
 }
 
-nav ul li {
-	list-style: none;
-	transform: translateX(100rem);
-	animation: slideIn .5s forwards;
+nav {
+    padding: 10px 0;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px 20px;
 }
 
 
-nav ul li:nth-child(1) {
-	animation-delay: 0s;
+/* esconde as ancoras da tela */
+a.links {
+    display: none;
 }
 
-nav ul li:nth-child(2) {
-	animation-delay: .5s;
-}
-
-nav ul li:nth-child(3) {
-	animation-delay: 1s;
-}
-
-nav ul li:nth-child(4) {
-	animation-delay: 1.5s;
-}
-
-nav ul li a {
-	padding: 1rem 0;
-	margin: 0 3rem;
-	position: relative;
-	letter-spacing: 2px;
-}
-
-nav ul li a:last-child {
-	margin-right: 0;
-}
-
-nav ul li a::before,
-nav ul li a::after {
-	content: '';
-	position: absolute;
-	width: 100%;
-	height: 2px;
-	background-color: #00042c;
-	left: 0;
-	transform: scaleX(0);
-	transition: all .5s;
-}
-
-nav ul li a::before {
-	top: 0;
-	transform-origin: left;
-}
-
-nav ul li a::after {
-	bottom: 0;
-	transform-origin: right;
-}
 
 section {
 
@@ -193,11 +157,12 @@ section {
 	border-radius: 20px;
 	height: 150px;
 	margin: 0 auto;
-    max-width: 1200px;
+	max-width: 1200px;
 	justify-content: center;
 	align-items: center;
 	display: flex;
 }
+
 .Selecionar {
 	padding: 28px 158px;
 }
@@ -242,6 +207,7 @@ select {
 select:focus {
 	border: var(--clr-neon) 2px solid;
 }
+
 .dataID {
 	color: rgb(255, 255, 255);
 	font-size: 20PX;
@@ -350,7 +316,7 @@ body {
 	background: rgb(0, 0, 0);
 	margin: 0px;
 	padding: 0px;
-	
+
 }
 
 
@@ -514,7 +480,7 @@ a {
 .passagens-splide {
 	display: flex;
 	align-items: center;
-    justify-content: space-between;
+	justify-content: space-between;
 }
 
 .splide__arrow--next {
@@ -629,7 +595,7 @@ a {
 	z-index: 1;
 }
 
-.oportunidades{
+.oportunidades {
 	margin-top: 12rem;
 }
 
@@ -721,7 +687,8 @@ a {
 	margin-bottom: 50px;
 	justify-content: space-between;
 }
-.cardes__container{
+
+.cardes__container {
 	max-width: 23%;
 }
 
@@ -757,7 +724,7 @@ a {
 }
 
 /* cards de hoteis */
-.hoteis{
+.hoteis {
 	margin: 10rem auto;
 }
 
@@ -1204,7 +1171,7 @@ footer div.social-media {
 
 }
 
-main{
+main {
 	margin: 0;
 	padding: 0;
 	background: black;
@@ -1216,6 +1183,7 @@ main{
 	height: 100%;
 	position: relative;
 }
+
 .star {
 	position: absolute;
 	background: white;
@@ -1232,7 +1200,54 @@ main{
 		1800px 250px white, 1900px 150px white, 2000px 200px white;
 	animation: twinkle 1s infinite;
 }
+
 @keyframes twinkle {
-	0%, 100% { opacity: 1; }
-	50% { opacity: 0.5; }
+
+	0%,
+	100% {
+		opacity: 1;
+	}
+
+	50% {
+		opacity: 0.5;
+	}
 }
+
+/*Button
+.bt-maisif1 a {
+	color: white;
+}
+
+.bt-maisif1 {
+	--green: #a6eaff;
+	font-size: 15px;
+	padding: 0.7em 2.7em;
+	letter-spacing: 0.06em;
+	position: relative;
+	font-family: inherit;
+	border-radius: 0.6em;
+	overflow: hidden;
+	transition: all 0.3s;
+	line-height: 1.4em;
+	border: 2px solid var(--green);
+	background: linear-gradient(to right, #ffcaa61c 1%, transparent 40%, transparent 60%, #ffcaa62e 100%);
+	color: var(--green);
+	align-items: center;
+}
+
+.bt-maisif1:before {
+	content: "";
+	position: absolute;
+	left: -4em;
+	width: 4em;
+	height: 100%;
+	top: 0;
+	transition: transform .4s ease-in-out;
+	background: linear-gradient(to right, transparent 1%, #a6eaff 40%, #a6eaff 60%, transparent 100%);
+	text-align: center;
+	align-items: center;
+}
+
+.bt-maisif1:hover:before {
+	transform: translateX(15em);
+}*/
