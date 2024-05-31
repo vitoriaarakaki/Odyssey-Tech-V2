@@ -316,7 +316,7 @@ nav ul li a:hover::after {
 
 .chamadopsg {
 	color: #999;
-	font-size: 5.8rem;
+	font-size: 5.5rem;
 	width: 40%;
 	text-align: center;
 
@@ -608,7 +608,7 @@ a {
 .slogan-cards {
 	color: #999;
 	padding-top: 20px;
-	font-size: 40px;
+	font-size: 5.5rem;
 	text-align: center;
 }
 
@@ -621,12 +621,13 @@ a {
 
 .contentcard h3 {
 	color: white;
-	;
+	font-size: 1.7rem;
+	text-align: center;
 }
 
 .contentcard p {
-	padding: 0 3rem;
-	font-size: 12px;
+	padding: 0 1.2rem;
+	font-size: 1.3rem;
 	color: white;
 }
 
@@ -688,12 +689,13 @@ a {
 
 .cardes {
 	display: flex;
-	margin-bottom: 50px;
-	justify-content: space-between;
+	margin-bottom: 8rem;
+	justify-content: space-evenly;
 }
 
 .cardes__container {
 	max-width: 23%;
+	margin-top: 8rem;
 }
 
 .button-scroll {
@@ -735,7 +737,7 @@ a {
 .text-hotel {
 	color: #999;
 	padding-top: 46px;
-	font-size: 55px;
+	font-size: 5.5rem;
 	text-align: center;
 }
 
@@ -759,7 +761,7 @@ a {
 
 
 .caaaard-img {
-	height: 57%;
+	height: 18rem;
 	width: 100%;
 	border-radius: .5rem;
 	transition: .3s ease;
