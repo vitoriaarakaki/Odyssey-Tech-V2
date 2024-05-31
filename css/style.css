@@ -29,7 +29,7 @@ img {
 
 .wrapper {
 	margin: 0 auto;
-	width: 80%;
+	width: 85%;
 	max-width: 1200px;
 }
 
@@ -48,7 +48,6 @@ header {
 	overflow: hidden;
 	animation: zoom 2s;
 	padding: 0;
-
 }
 
 @keyframes zoom {
@@ -117,12 +116,15 @@ header {
 
 /* NAV */
 header h1 {
-    margin: 10px;
-    position: relative;
-    transform: translate(0, 0%);
+    padding: 2rem 0;
     display: flex;
     align-items: center;
     font-family: "Roboto Cn", sans-serif;
+}
+
+header h1 img{
+	width: 100px;
+	height: 100%;
 }
 
 nav {
@@ -135,6 +137,7 @@ nav a {
     color: #333;
     padding: 10px 20px;
 	outline: none;
+	font-size: 2rem;
 }
 
 .container nav a:hover{
@@ -313,7 +316,7 @@ nav ul li a:hover::after {
 
 .chamadopsg {
 	color: #999;
-	font-size: 58px;
+	font-size: 5.8rem;
 	width: 40%;
 	text-align: center;
 
@@ -456,14 +459,9 @@ a {
 }
 
 .splide__list {
-	backface-visibility: hidden;
 	display: flex;
-	height: 100%;
 	transform-style: preserve-3d;
-	margin: 0px !important;
-	padding: 0px !important;
 	gap: 19px;
-
 }
 
 .splide__track {
@@ -473,7 +471,6 @@ a {
 
 .splide__slide {
 	width: 200px !important;
-	backface-visibility: hidden;
 	box-sizing: border-box;
 	flex-shrink: 0;
 	margin: 0px;
@@ -972,6 +969,44 @@ footer div.social-media {
 
 	.caaaard-img{
 		height: 20rem;
+	}
+
+	section.passagens-splide.starfield{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.chamadopsg{
+		width: 100%;
+		margin-bottom: 5rem;
+	}
+
+	.splide{
+		width: unset;
+	}
+
+	.splide__track{
+		max-width: unset;
+		padding-bottom: unset;
+	}
+
+	.splide__list{
+		display: flex;
+		transform-style: preserve-3d;
+		gap: 19px;
+	}
+
+	.splide__slide{
+		width: 300px !important;
+		display: flex;
+        justify-content: center;
+        align-items: center;
+	}
+
+	.box{
+		width: 280px;
 	}
 }
 
