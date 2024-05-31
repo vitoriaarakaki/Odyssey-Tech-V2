@@ -272,6 +272,7 @@ main {
   line-height: 1.6rem;
   margin-bottom: .5rem;
   padding: 0 1rem;
+  list-style: none;
 }
 
 .card__compre {
@@ -286,6 +287,12 @@ main {
   font-weight: bold;
   font-size: 1.8rem;
   border: none;
+  transition: .5s all;
+}
+
+.card__compre button:hover {
+  background-color: #00ff9da3;
+  transition: .5s all;
 }
 
 footer {
