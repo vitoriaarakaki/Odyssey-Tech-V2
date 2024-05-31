@@ -15,41 +15,33 @@
 
 	<header>
 
+		<div class="container-fluid wrapper">
+			<h1>
+				<img src="imgs/assets/odyssey.png" alt="Logo" width="70" height="64"
+					class="d-inline-block align-text-top" style="margin-right: 1rem;">
 
-
-		<div>
-			<div class="container-fluid">
-				<a class="navbar-brand">
-					<h1>
-						<img src="imgs/assets/odyssey.png" alt="Logo" width="70" height="64"
-							class="d-inline-block align-text-top">
-
-						<!-- bloco separado para os botões -->
-						<div class="container">
-							<nav>
-								<a href="Index.html"
-									style="text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.35); color: whitesmoke; font-family: 'Andale Mono', monospace; font-weight: bold">Início</a>
-								<a href="MaisInformacoes.html"
-									style="text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.35); color: whitesmoke; font-family: 'Andale Mono', monospace; font-weight: bold">Mais
-									Informações</a>
-								<a href="SobreNos.html"
-									style="text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.35); color: whitesmoke; font-family: 'Andale Mono', monospace; font-weight: bold">Sobre</a>
-							</nav>
-						</div>
-					</h1>
-				</a>
-			</div>
+				<!-- bloco separado para os botões -->
+				<div class="container">
+					<nav>
+						<a href="MaisInformacoes.html"
+							style="text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.35); color: whitesmoke; font-family: 'Andale Mono', monospace; font-weight: bold;">Mais
+							Informações</a>
+						<a href="pacotes.html"
+							style="text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.35); color: whitesmoke; font-family: 'Andale Mono', monospace; font-weight: bold;">Pacotes</a>
+						<a href="SobreNos.html"
+							style="text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.35); color: whitesmoke; font-family: 'Andale Mono', monospace; font-weight: bold">Sobre Nós</a>
+					</nav>
+				</div>
+			</h1>
 		</div>
-
-
-		<form>
+		<div class="banner__container wrapper">
 			<section class="Selecionar">
 
-				<h2 class="Slogan">Relaxe Humano...Você está com a gente!</h2>
+				<h2 class="Slogan">Relaxe Humano... Você está com a gente!</h2>
 				<h3 class="Slogan2">Nós revolucionamos!</h3>
 
-				<br><br>
-
+				<!-- <br><br>
+	
 				<div class="container1">
 					<br><br><br>
 					<div class="sub-container">
@@ -65,7 +57,7 @@
 							<label class="dataID" for="data">Data de ida:</label> <label class="dataID" for="data">Data
 								de volta:</label>
 						</div>
-
+	
 						<input type="date" id="data" name="dataIda">
 						<input type="date" id="data" name="dataVolt">
 						<select name="format" id="format">
@@ -99,9 +91,9 @@
 							</svg>
 						</button>
 					</div>
-				</div>
+				</div> -->
 			</section>
-		</form>
+		</div>
 
 	</header>
 
@@ -194,7 +186,7 @@
 								</div>
 							</li>
 
-			
+
 						</ul>
 					</div>
 				</div>
@@ -210,30 +202,33 @@
 
 					<!--CARD HOTEL 1-------->
 					<div class="caaaard">
-
-						<div class="caaaard-img">
-							<img src="imgs/assets/hotel 1.jpg" alt="">
+						<div class="card_box">
+							<div class="caaaard-img">
+								<img src="imgs/assets/hotel 1.jpg" alt="">
+							</div>
+							<div class="caaaard-info">
+								<p class="texttt-title">Hotel Orbital</p>
+								<p class="texttt-body">Estadia de uma semana no Orbital Space</p>
+							</div>
 						</div>
-						<div class="caaaard-info">
-							<p class="texttt-title">Hotel Orbital</p>
-							<p class="texttt-body">Estadia de uma semana no Orbital Space</p>
-						</div>
-						<div class="caaaard-footer">
-							<span class="texttt-title">Por 2.800</span>
-
-							<div class="caaaard-button">
-								<a href="AddCarrinho?id=2"> <svg class="svg-icon" viewBox="0 0 20 20">
-										<path
-											d="M17.72,5.011H8.026c-0.271,0-0.49,0.219-0.49,0.489c0,0.271,0.219,0.489,0.49,0.489h8.962l-1.979,4.773H6.763L4.935,5.343C4.926,5.316,4.897,5.309,4.884,5.286c-0.011-0.024,0-0.051-0.017-0.074C4.833,5.166,4.025,4.081,2.33,3.908C2.068,3.883,1.822,4.075,1.795,4.344C1.767,4.612,1.962,4.853,2.231,4.88c1.143,0.118,1.703,0.738,1.808,0.866l1.91,5.661c0.066,0.199,0.252,0.333,0.463,0.333h8.924c0.116,0,0.22-0.053,0.308-0.128c0.027-0.023,0.042-0.048,0.063-0.076c0.026-0.034,0.063-0.058,0.08-0.099l2.384-5.75c0.062-0.151,0.046-0.323-0.045-0.458C18.036,5.092,17.883,5.011,17.72,5.011z">
-										</path>
-										<path
-											d="M8.251,12.386c-1.023,0-1.856,0.834-1.856,1.856s0.833,1.853,1.856,1.853c1.021,0,1.853-0.83,1.853-1.853S9.273,12.386,8.251,12.386z M8.251,15.116c-0.484,0-0.877-0.393-0.877-0.874c0-0.484,0.394-0.878,0.877-0.878c0.482,0,0.875,0.394,0.875,0.878C9.126,14.724,8.733,15.116,8.251,15.116z">
-										</path>
-										<path
-											d="M13.972,12.386c-1.022,0-1.855,0.834-1.855,1.856s0.833,1.853,1.855,1.853s1.854-0.83,1.854-1.853S14.994,12.386,13.972,12.386z M13.972,15.116c-0.484,0-0.878-0.393-0.878-0.874c0-0.484,0.394-0.878,0.878-0.878c0.482,0,0.875,0.394,0.875,0.878C14.847,14.724,14.454,15.116,13.972,15.116z">
-										</path>
-									</svg>
-								</a>
+						<div class="card_box">
+							<div class="caaaard-footer">
+								<span class="texttt-title">Por 2.800</span>
+	
+								<div class="caaaard-button">
+									<a href="AddCarrinho?id=2"> <svg class="svg-icon" viewBox="0 0 20 20">
+											<path
+												d="M17.72,5.011H8.026c-0.271,0-0.49,0.219-0.49,0.489c0,0.271,0.219,0.489,0.49,0.489h8.962l-1.979,4.773H6.763L4.935,5.343C4.926,5.316,4.897,5.309,4.884,5.286c-0.011-0.024,0-0.051-0.017-0.074C4.833,5.166,4.025,4.081,2.33,3.908C2.068,3.883,1.822,4.075,1.795,4.344C1.767,4.612,1.962,4.853,2.231,4.88c1.143,0.118,1.703,0.738,1.808,0.866l1.91,5.661c0.066,0.199,0.252,0.333,0.463,0.333h8.924c0.116,0,0.22-0.053,0.308-0.128c0.027-0.023,0.042-0.048,0.063-0.076c0.026-0.034,0.063-0.058,0.08-0.099l2.384-5.75c0.062-0.151,0.046-0.323-0.045-0.458C18.036,5.092,17.883,5.011,17.72,5.011z">
+											</path>
+											<path
+												d="M8.251,12.386c-1.023,0-1.856,0.834-1.856,1.856s0.833,1.853,1.856,1.853c1.021,0,1.853-0.83,1.853-1.853S9.273,12.386,8.251,12.386z M8.251,15.116c-0.484,0-0.877-0.393-0.877-0.874c0-0.484,0.394-0.878,0.877-0.878c0.482,0,0.875,0.394,0.875,0.878C9.126,14.724,8.733,15.116,8.251,15.116z">
+											</path>
+											<path
+												d="M13.972,12.386c-1.022,0-1.855,0.834-1.855,1.856s0.833,1.853,1.855,1.853s1.854-0.83,1.854-1.853S14.994,12.386,13.972,12.386z M13.972,15.116c-0.484,0-0.878-0.393-0.878-0.874c0-0.484,0.394-0.878,0.878-0.878c0.482,0,0.875,0.394,0.875,0.878C14.847,14.724,14.454,15.116,13.972,15.116z">
+											</path>
+										</svg>
+									</a>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -361,9 +356,7 @@
 										cenário
 										espetacular do espaço.
 									</p>
-									<button class="bt-maisif">
-										<a href="./MaisInformacoes.jsp">mais infomaçoes</a>
-									</button>
+									<a href="./MaisInformacoes.jsp">mais infomaçoes</a>
 								</div>
 					</section>
 
@@ -392,9 +385,7 @@
 										fundo
 										para suas refeições.
 									</p>
-									<button class="bt-maisif">
-										<a href="./MaisInformacoes.jsp">mais infomaçoes</a>
-									</button>
+									<a href="./MaisInformacoes.jsp">mais infomaçoes</a>
 								</div>
 					</section>
 
@@ -421,9 +412,7 @@
 										trazidos da
 										Terra, em um ambiente lunar deslumbrante.
 									</p>
-									<button class="bt-maisif">
-										<a href="./MaisInformacoes.jsp">mais infomaçoes</a>
-									</button>
+									<a href="./MaisInformacoes.jsp">mais infomaçoes</a>
 								</div>
 					</section>
 
@@ -450,9 +439,7 @@
 										trazidos
 										da Terra, em um cenário lunar inesquecível.
 									</p>
-									<button class="bt-maisif">
-										<a href="./MaisInformacoes.jsp">mais infomaçoes</a>
-									</button>
+									<a href="./MaisInformacoes.jsp">mais infomaçoes</a>
 								</div>
 					</section>
 				</div>
@@ -464,7 +451,27 @@
 
 
 	<footer>
-		<div class="top-footer">
+		<div class="footer__container wrapper">
+			<div class="footer__left">
+				<div class="footer__logo">
+					<a href="Index.html">
+						<img src="imgs/assets/odyssey.png" alt="Logo" width="70" height="64" class="d-inline-block align-text-top">
+					</a>
+				</div>
+				<nav class="footer__nav">
+					<ul>
+						<li><a href="MaisInformacoes.html">Mais Informações</a></li>
+						<li><a href="pacotes.html">Pacotes</a></li>
+						<li><a href="SobreNos.html">Sobre Nós</a></li>
+					</ul>
+					
+				</nav>
+			</div>
+			<div class="footer__right">
+				<p>&copy; ODYSSEY TECH - TODOS OS DIREITOS RESERVADOS</p>
+			</div>
+		</div>
+		<!-- <div class="top-footer">
 			<h4>Formas de pagamento</h4>
 			<div style="display: inline-flex; align-items: center;">
 				<img style="width: 30px; height: 30px;"
@@ -472,22 +479,25 @@
 					alt="icon pix"> <img style="width: 100px; height: 70px"
 					src="https://www.harbsetiquetas.com.br/media/wysiwyg/icon-boleto.png" alt="icon boleto">
 			</div>
-		</div>
-		<label id="CopyrightFooter">&copy; ODYSSEY TECH - TODOS OS DIREITOS RESERVADOS</label>
+		</div> -->
+		
 
-		<div class="social-media">
+		<!-- <div class="social-media">
 
 			<h4>Siga ofertas nas redes</h4>
 			<a href="#" target="_blank"><img
 					src="https://www.cvc.com.br/imageproc/image/upload/v1/global/icons/social/socialFacebook.svg"
-					alt="Facebook"></a> <a href="https://www.instagram.com/outsidetrip1/" target="_blank"><img
-					src="https://www.cvc.com.br/imageproc/image/upload/v1/global/icons/social/socialInstagram.svg"
-					alt="Instagram"></a> <a href="#" target="_blank"><img
-					src="https://www.cvc.com.br/imageproc/image/upload/v1/global/icons/social/socialTwitter.svg"
-					alt="Twitter"></a> <a href="#" target="_blank"><img
+					alt="Facebook"></a>
+			<a href="https://www.instagram.com/outsidetrip1/" target="_blank">
+				<img src="https://www.cvc.com.br/imageproc/image/upload/v1/global/icons/social/socialInstagram.svg" alt="Instagram">
+			</a> 
+			<a href="#" target="_blank">
+				<img src="https://www.cvc.com.br/imageproc/image/upload/v1/global/icons/social/socialTwitter.svg" alt="Twitter">
+			</a> 
+			<a href="#" target="_blank"><img
 					src="https://www.cvc.com.br/imageproc/image/upload/v1/global/icons/social/socialYoutube.svg"
 					alt="YouTube"></a>
-		</div>
+		</div> -->
 	</footer>
 
 </body>
