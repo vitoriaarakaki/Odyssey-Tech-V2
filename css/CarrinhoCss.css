@@ -15,9 +15,8 @@ html {
 body {
 	box-sizing: border-box;
 	position: relative;
-
     width: 100%;
-	height: 80vh;
+	height: 100vh;
 	background: linear-gradient(to bottom, rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url("../imgs/assets/terra.jpg") center no-repeat;
 	background-size: cover;
 	overflow: hidden;
@@ -45,9 +44,6 @@ a {
 }
 
 /* incio e menu */
-body {
-	
-}
 
 /* NAV */
 header h1 {
@@ -92,6 +88,7 @@ nav a {
 .carrinho__container h2 {
     text-align: center;
     margin-bottom: 4rem;
+    font-size: 2.4rem;
 }
 
 
@@ -101,14 +98,59 @@ nav a {
     justify-content: space-between;
     border: 1px solid black;
     border-radius: .5rem;
-    padding: 1rem 4rem;
+    padding: 0;
 }
 
 .carrinho__select:not(:last-child){
     margin-bottom: 3rem;
 }
 
+.carrinho__img{
+    max-width: 17rem;
+}
 
+
+
+button.carrinho__delet {
+    outline: none;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    font-size: 2rem;
+    color: red;
+    font-weight: bold;
+}
+
+.carrinho__valor {
+    font-size: 1.6rem;
+    color: #000;
+    font-weight: 600;
+    margin-right: 2rem;
+}
+
+.carrinho__total {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 4rem;
+}
+
+.carrinho__finalizar {
+    background-color: green;
+    border-radius: 1rem;
+    padding: 1rem 3rem;
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #fff;
+}
+
+.carrinho__valorfinal {
+    font-size: 1.6rem;
+    color: #000;
+    font-weight: 600;
+    padding: 1rem 1.5rem;
+    border-radius: 1rem;
+}
 
 
 
@@ -118,6 +160,9 @@ footer {
 	align-items: center;
 	border-top: 1px solid #fff;
     margin-top: 8rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 .footer__container, .footer__left{
