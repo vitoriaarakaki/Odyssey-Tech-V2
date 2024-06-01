@@ -85,6 +85,8 @@ a.links {
     text-align: center;
     width: 400PX;
     margin-top: 10rem;
+    display: flex;
+    flex-direction: column;
 }
 
 h2 {
