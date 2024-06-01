@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/subscribe.css" />
     <link rel="icon" href="imgs/assets/odyssey.png">
 
+    <script src="js/login.js"></script>
 
     <title>Cadastro</title>
 </head>
@@ -37,13 +38,13 @@
 
     <section class="container wrapper">
         <h2>Cadastro</h2>
-        <form action="Index.html" method="POST">
+        <!-- <form action="Index.html" method="POST"> -->
 
             <label for="name">Nome:</label>
-            <input type="number" id="name" name="name" required>
-
-            <label for="name">Documento:</label>
             <input type="text" id="name" name="name" required>
+            
+            <label for="name">Documento:</label>
+            <input type="text" id="document" name="name" required>
 
             <label for="name">Data Nascimento:</label>
             <input type="date" id="date" name="date" required>
@@ -54,8 +55,8 @@
             <label for="password">Senha:</label>
             <input type="password" id="password" name="password" required>
 
-            <button type="submit">Cadastrar</button>
-        </form>
+            <button onclick="doSignUp()" type="submit">Cadastrar</button>
+        <!-- </form> -->
         <p>Já tem uma conta? <a href="Login.html">Faça login</a></p>
     </section>
 
